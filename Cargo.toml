@@ -1,0 +1,18 @@
+[package]
+name = "calculator"
+version = "0.1.0"
+edition = "2021"
+description = "calc written in rust"
+authors = ["https://github.com/dxavvv"]
+license = "MIT"
+repository = "https://github.com/dxavvv/rust-calc"
+
+[profile.release]
+lto = true
+codegen-units = 1
+panic = "abort"
+
+[profile.dev]
+debug = true
+
+[dependencies]
