@@ -2,12 +2,14 @@
 
 A fast mathematical expression calculator, written in Rust.
 
+
 ## Features
 
 - Basic operations: `+ - * / ^ ( )`
 - Math functions: `sin(), cos(), sqrt(), print()`
 - Variables: `let x = 5`
 - Constants: `pi`, `e`
+
 
 ## Quick Start
 
